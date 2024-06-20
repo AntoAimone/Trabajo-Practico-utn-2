@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  
+}
+
+header {
+  background-color: #343a40;
+  color: white;
+  padding: 1em 0;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 1em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  flex: 1;
+  padding: 2em;
+  text-align: center;
+  overflow: hidden;
+}
+
+.intro {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.intro-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1em;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.categories {
+  margin-top: 2em;
+}
+
+.categories h2 {
+  margin-bottom: 1em;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2); /* Sombras en los h2 */
+}
+
+.categories article {
+  margin-bottom: 2em;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 1em;
+}
+
+.categories article h3 {
+  margin-top: 0;
+}
+
+.house-image,
+.category-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.characters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1em;
+  margin-top: 2em;
+}
+
+.character-card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 1em;
+  text-align: center;
+}
+
+.character-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: 2em;
+}
